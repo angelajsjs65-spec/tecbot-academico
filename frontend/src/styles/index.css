@@ -19,3 +19,25 @@ main {
   margin: 0 auto;
   padding: 2rem 1rem;
 }
+
+textarea {
+  width: 100%;
+  font: inherit;
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  resize: vertical;
+}
+
+form button {
+  margin-top: 0.5rem;
+  font: inherit;
+}
+
+.form-error {
+  color: #b91c1c;
+}
+
+.form-confirmation {
+  color: #15803d;
+}
